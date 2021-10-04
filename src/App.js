@@ -1,5 +1,7 @@
+import { Teste } from './styled';
+
 const App = () => (
-  <h1>Projeto base</h1>
+  <Teste>Projeto base</Teste>
 );
 
 export default App;
