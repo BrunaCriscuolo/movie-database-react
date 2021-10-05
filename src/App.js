@@ -1,4 +1,5 @@
 import { Router } from 'react-router-dom';
+import 'antd/dist/antd.css';
 
 import Routes from './routes';
 import history from './services/history';
