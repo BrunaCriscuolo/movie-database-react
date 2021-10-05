@@ -1,14 +1,13 @@
 import { Route } from 'react-router-dom';
 
-const RouteWrapper = ({ component: Component, isPrivate, ...rest }) => (
+const RouteWrapper = ({ component: Component, exact, path }) => (
   <>
-
     <Route
-      {...rest}
+      exact={exact}
+      path={path}
       render={props => (
         <Component {...props} />
       )} />
-
   </>
 );
 

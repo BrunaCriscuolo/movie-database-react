@@ -3,11 +3,11 @@ import { Switch } from 'react-router-dom';
 
 import Route from './routes';
 
-import Teste from '../pages/Teste';
+import { Home } from '../pages/Home/home';
 
 const Routes = () => (
   <Switch>
-    <Route path='/' exact component={Teste} />
+    <Route path='/' exact component={Home} />
   </Switch>
 );
 
