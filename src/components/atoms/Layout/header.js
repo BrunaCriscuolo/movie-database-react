@@ -1,9 +1,7 @@
-import { Layout } from 'antd';
+import { Header as H } from './styles';
 
-const { Header: H } = Layout;
-
-export const Header = ({ children }) => (
-  <H>
+export const Header = ({ children, className }) => (
+  <H className={className}>
     {children}
   </H>
 )
