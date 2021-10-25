@@ -12,7 +12,7 @@ export const Home = () => (
     <Header>
       <Row gutter='24'>
         <Col>
-          <Image src={Logo} width={200} />
+          <Image src={Logo} width={150} />
         </Col>
         <Col>
           <Link href='/'>Filmes</Link>
